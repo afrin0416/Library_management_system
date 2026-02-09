@@ -1,0 +1,49 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+lib_env/
+.venv/
+
+# Django database
+*.sqlite3
+
+# Django local settings / secrets
+local_settings.py
+*.log
+
+# Media and static files
+media/
+staticfiles/
+# If you want to track your app static files, leave your app/static/ folder alone
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Pytest / coverage / test artifacts
+htmlcov/
+.coverage
+.cache
+.pytest_cache/
+
+# Django migrations (optional, but usually tracked in source control)
+# */migrations/*.pyc
+# */migrations/__pycache__/
+# keep migrations, but ignore __pycache__ inside them
+**/migrations/__pycache__/
+*.pyc
+
+# Environment files
+*.env
+

@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import Book
+from authors.models import Author 
 from authors.serializers import AuthorSerializer
-from authors.models import Author
 
 class BookSerializer(serializers.ModelSerializer):
     author = AuthorSerializer(read_only=True)
